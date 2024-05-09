@@ -24,12 +24,18 @@
   <style>
     @media (max-width: 767px) {
       .mobile-top-logo {
-        position: absoloute;
+        position: absolute;
         top: 0;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        z-index: 9999;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+        max-width: 100%;
+        text-align: center;
+      }
+      .w-row .column {
+        margin-bottom: 10px;
       }
     }
   </style>
